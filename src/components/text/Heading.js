@@ -19,7 +19,7 @@ function Heading({level, className, children}) {
             break;
     
         default:
-            className += " text-base";
+            className += " text-lg";
             break;
     }
     return (

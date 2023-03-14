@@ -2,7 +2,7 @@ import classNames from "classnames";
 
 function Text({className, children}) {
     return (
-        <div className={classNames(className, "text-base")}>{children}</div>
+        <div className={classNames(className, "text-lg")}>{children}</div>
     );
 }
 
