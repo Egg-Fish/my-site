@@ -2,7 +2,7 @@ import { useState, useLayoutEffect } from "react";
 
 const MOBILE_WIDTH = 768;
 
-function useIsMobile() {
+export function useIsMobile() {
     const [isMobile, setIsMobile] = useState(false);
 
     const listener = () => {

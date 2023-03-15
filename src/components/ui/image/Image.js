@@ -1,7 +1,7 @@
 
-export function Image({src, alt, className}) {
+export function Image({src, alt, className, onClick}) {
     return (
-        <img src={src} alt={alt} className={className}/>
+        <img src={src} alt={alt} className={className} onClick={onClick}/>
     );
 }
 

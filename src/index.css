@@ -2,12 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
 .fade-enter {
-    opacity: 0;
-    z-index: 1;
-  }
+  opacity: 0;
+  z-index: 1;
+}
   
   .fade-enter.fade-enter-active {
     opacity: 1;
-    transition: opacity 250ms ease-in;
+    transition: opacity 200ms ease-in;
   }
+
+:root {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+:root::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}

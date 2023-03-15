@@ -20,7 +20,7 @@ function Modal({children, toggle, onExit}) {
                 </div>
             </div>
         </div>,
-        document.getElementById("portal")
+        document.getElementById("modal-portal")
     );
 }
 

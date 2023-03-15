@@ -5,14 +5,15 @@ import HomePage from "./pages/Home/HomePage";
 import SamplePage from "./pages/Sample/SamplePage";
 
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+import EducationPage from "./pages/Education/EducationPage";
 
 function Content() {
     const location = useLocation();
 
     return (
-        <TransitionGroup>
+      <TransitionGroup>
         <CSSTransition 
-          timeout={150}
+          timeout={200}
           classNames="fade"
           key={location.key}
         >
@@ -20,7 +21,7 @@ function Content() {
             <Route path="/" element={<Layout />}>
               <Route index element={<HomePage />} />
               <Route path="about" element={<AboutPage />} />
-              <Route path="sample" element={<SamplePage />} />
+              <Route path="education" element={<EducationPage />} />
             </Route>
           </Routes>
         </CSSTransition>

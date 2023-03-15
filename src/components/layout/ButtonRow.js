@@ -2,8 +2,6 @@ import classNames from "classnames";
 
 function ButtonRow({justify, items, className, children}) {
     let nChildren = children.length;
-    
-    console.log(children);
 
     let styles = {
         "gridTemplateColumns": `repeat(${nChildren}, minmax(0, 1fr))`

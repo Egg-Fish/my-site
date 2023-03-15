@@ -1,9 +1,12 @@
 import classNames from "classnames";
 
-function Row({justify, items, className, children}) {
+function Row({justify, items, className, children, strict}) {
     return (
         <div 
-            className={classNames(className, "w-full", "h-full", "flex md:flex-row flex-col", {
+            className={classNames("w-full", "h-full", "flex", {
+                "flex-row": strict,
+                "lg:flex-row flex-col": !strict
+            }, {
                 "justify-start": justify === "start",
                 "justify-end": justify === "end",
                 "justify-center": justify === "center",
@@ -17,7 +20,7 @@ function Row({justify, items, className, children}) {
                 "items-center": justify === "center",
                 "items-baseline": justify === "baseline",
                 "items-stretch": justify === "stretch",
-            }
+            }, className
             )}
         >
             {children}

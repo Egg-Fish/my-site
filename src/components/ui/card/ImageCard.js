@@ -1,11 +1,11 @@
 import classNames from "classnames";
 import Heading from "../../text/Heading";
-import ImageModal from "../image/ImageModal";
+import ImageModal from "../modal/ImageModal";
 
 export function ImageCard({img, imgDescription, title, subtitle, className, children}) {
     return (
         <div className={classNames(className, "w-full h-full flex flexbox flex-col bg-gray-200 rounded-md p-5")}>
-            <ImageModal src={img} description={imgDescription} />
+            <ImageModal src={img} description={imgDescription} className="rounded-md"/>
             <br />
             <div>
                 <Heading level={2} className="font-bold">{title}</Heading>
