@@ -17,37 +17,14 @@ import { useIsMobile } from "../../hooks/useIsMobile.js";
 
 export default function AboutMeSection() {
     return (
-<section className="lg:w-2/3 border-primary border-b-4 border-t-4 text-justify">
+<section className="xl:w-2/3 text-justify">
         <br />
         <br />
 
         <Column className="gap-5" justify="center">
-            <Column justify="start">
+            <Column justify="center" items="center">
 
-                
                 <Gallery />
-                
-
-                <Row justify="center">
-                    <Image src={profilePic} 
-                        className="
-                        w-1/2 lg:w-3/12
-                        lg:mr-20
-                        m-10
-                        rounded-3xl
-                        shadow-2xl
-                        " />
-                    <div>
-                        <Heading level={2}>Hello! I am Eugenio, a cybersecurity student.</Heading>
-                        <br />
-                        <Text>
-                            Currently at my final year at Ngee Ann Polytechnic, my interest for cybersecurity
-                            started back in 2018 after being introduced to Kali Linux from a YouTube
-                            tutorial. Continuing from this spark of interest, I took this diploma to
-                            make cybersecurity my career, and it has been a great choice so far!
-                        </Text>
-                    </div>
-                </Row>
 
                 <br className="lg:hidden"/>
 
