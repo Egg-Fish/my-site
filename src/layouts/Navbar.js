@@ -8,13 +8,13 @@ function Navbar () {
 
     // console.log(location.pathname);
 
-    const BUTTON_CLASSNAMES = classNames("fi p-3 rounded-l-xl lg:hover:pr-8")
+    const BUTTON_CLASSNAMES = classNames("fi p-3 rounded-l-xl xl:hover:pr-8")
 
     return createPortal(
 <div className="
     fixed 
     top-2/3
-        lg:top-10
+        xl:top-10
     right-0
     ">
     <Column className="gap-y-11 text-3xl text-white" justify="end">

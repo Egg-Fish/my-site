@@ -15,9 +15,9 @@ function HomePage() {
 
     return (
         <div className="p-10 h-screen">
-            <Row justify="center" items="center">
+            <Row justify="center" items="center" breakpoint="xl">
                 <div 
-                    className="w-full lg:ml-[5vw] m-10 h-full rounded-3xl" 
+                    className="w-full md:ml-[5vw] m-10 h-full rounded-3xl" 
                     style={
                         {
                             "boxShadow": "0px 0px 30px 5px rgba(0,0,0,.75) inset",
@@ -29,7 +29,7 @@ function HomePage() {
                 </div>
 
 
-                <Column justify="start" items="center" className="lg:justify-center m-10">
+                <Column justify="start" items="center" className="md:justify-center m-10">
                     <div>
                         <Heading level={2}>Hello! I'm</Heading>
                         <Heading className="text-6xl">Eugenio</Heading>
