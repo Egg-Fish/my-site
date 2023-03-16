@@ -1,11 +1,15 @@
 import classNames from "classnames";
 
-function Row({justify, items, className, children, strict}) {
+function Row({justify, items, className, children, strict, breakpoint="md"}) {
     return (
         <div 
             className={classNames("w-full", "h-full", "flex", {
                 "flex-row": strict,
-                "lg:flex-row flex-col": !strict
+                "sm:flex-row flex-col": !strict && breakpoint==="sm",
+                "md:flex-row flex-col": !strict && breakpoint==="md",
+                "lg:flex-row flex-col": !strict && breakpoint==="lg",
+                "xl:flex-row flex-col": !strict && breakpoint==="xl",
+                "2xl:flex-row flex-col": !strict && breakpoint==="2xl",
             }, {
                 "justify-start": justify === "start",
                 "justify-end": justify === "end",
