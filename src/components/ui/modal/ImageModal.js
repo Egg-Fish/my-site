@@ -10,7 +10,7 @@ function ImageModal({src, description, toggle, onExit}) {
             <div className="p-5 bg-white text-center w-[95vw] lg:w-auto rounded-md">
                 <Image src={src} alt={description} className="w-full rounded-md lg:max-h-[80vh] object-contain"/>
                 
-                {description ? <><br /><Text>{description}</Text></> : <></>}
+                {description ? <><br /><Text className="text-justify">{description}</Text></> : <></>}
             </div>
         </Modal>
     );

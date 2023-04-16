@@ -1,10 +1,10 @@
 import classNames from "classnames";
-import profilePic from '../../assets/EGGFACE.jpg';
-import flowersPic from "../../assets/FLOWERS.jpg";
-import jangPic from "../../assets/jang.JPEG";
-import cloudrocksPic from "../../assets/cloudrocks.jpg";
-import squatPic from "../../assets/squat.jpg";
-import snipPic from "../../assets/snip.jpg";
+import flowersPic from "../../assets/aboutme/FLOWERS.jpg";
+import profilePic from '../../assets/aboutme/EGGFACE.jpg';
+import jangPic from "../../assets/aboutme/jang.jpeg";
+import cloudrocksPic from "../../assets/aboutme/cloudrocks.jpg";
+import squatPic from "../../assets/aboutme/squat.jpg";
+import snipPic from "../../assets/aboutme/snip.jpg";
 
 import Image from "../../components/ui/image/Image";
 import ImageModal from "../../components/ui/modal/ImageModal.js";

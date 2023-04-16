@@ -8,10 +8,12 @@ import AboutMeSection from "./AboutMeSection";
 import CardsSection from "./CardsSection";
 
 function AboutPage() {
+    window.scrollTo({ top: 0 })
+    
     return (
 <div className="p-5 lg:p-10">
     <Column justify="center">
-        <Heading>About Me</Heading>
+        <Heading className="">About Me</Heading>
 
         <br />
 

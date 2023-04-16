@@ -3,9 +3,9 @@ import Heading from "../../components/text/Heading";
 import Text from "../../components/text/Text";
 
 
-import revengImg from '../../assets/IDA.png';
-import encaseImg from '../../assets/ENCASE.JPG';
-import sccbrdImg from '../../assets/SCC_SCOREBOARD.jpg';
+import revengImg from '../../assets/skills/IDA.png';
+import encaseImg from '../../assets/skills/ENCASE.JPG';
+import sccbrdImg from '../../assets/skills/SCC_SCOREBOARD.jpg';
 import ImageCard from "../../components/ui/card/ImageCard";
 
 

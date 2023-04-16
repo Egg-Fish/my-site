@@ -8,7 +8,7 @@ import ButtonRow from "../../components/layout/ButtonRow";
 import Text from "../../components/text/Text";
 import Image from "../../components/ui/image/Image.js";
 
-import backgroundImage from "../../assets/FLOWERS.jpg";
+import backgroundImage from "../../assets/aboutme/squat.jpg";
 
 function HomePage() {
     const navigate = useNavigate();

@@ -1,19 +1,7 @@
 import Column from "../../components/layout/Column";
-import Row from "../../components/layout/Row";
-import Heading from "../../components/text/Heading";
 import Text from "../../components/text/Text";
-import Image from "../../components/ui/image/Image";
-
-import profilePic from '../../assets/EGGFACE.jpg';
-import flowersPic from "../../assets/FLOWERS.jpg";
-import jangPic from "../../assets/jang.JPEG";
-import cloudrocksPic from "../../assets/cloudrocks.jpg";
-import squatPic from "../../assets/squat.jpg";
-import snipPic from "../../assets/snip.jpg";
 
 import Gallery from "./Gallery";
-
-import { useIsMobile } from "../../hooks/useIsMobile.js";
 
 export default function AboutMeSection() {
     return (
