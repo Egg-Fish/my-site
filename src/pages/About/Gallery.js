@@ -35,7 +35,7 @@ function Gallery({className}) {
                     </Row>
                 </div>
 
-                <div className="h-full xl:h-1/3 xl:m-5">
+                <div className="h-full xl:h-auto">
                     <Row justify="center" breakpoint="md">
                         <Image src={profilePic} 
                             className="

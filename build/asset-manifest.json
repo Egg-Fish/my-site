@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-site/static/css/main.e966bb29.css",
-    "main.js": "/my-site/static/js/main.5007a149.js",
+    "main.js": "/my-site/static/js/main.711f3862.js",
     "static/media/FLOWERS.jpg": "/my-site/static/media/FLOWERS.2f5e776cdd40cc85bff1.jpg",
     "static/media/NUSSTATS.png": "/my-site/static/media/NUSSTATS.d85d9e8a720a00787e3c.png",
     "static/media/YCEP.png": "/my-site/static/media/YCEP.d8aa63deabcfcaf9b174.png",
@@ -35,6 +35,7 @@
     "static/media/uicons-solid-rounded-AWPFWVW5.woff": "/my-site/static/media/uicons-solid-rounded-AWPFWVW5.2621ec712bf05b5fc9e6.woff",
     "static/media/uicons-regular-rounded-3OJX2N3K.woff2": "/my-site/static/media/uicons-regular-rounded-3OJX2N3K.3f7f2c80230f591f0231.woff2",
     "static/media/uicons-regular-straight-NEQD4Y5Q.woff": "/my-site/static/media/uicons-regular-straight-NEQD4Y5Q.966e1e1972c9e8cf7a97.woff",
+    "static/media/XMSS.jpeg": "/my-site/static/media/XMSS.14e49795144f19a99491.jpeg",
     "static/media/uicons-bold-rounded-YL3LKNDW.woff2": "/my-site/static/media/uicons-bold-rounded-YL3LKNDW.094c69c0b8ba7739e058.woff2",
     "static/media/uicons-bold-straight-MAKDQRMI.woff": "/my-site/static/media/uicons-bold-straight-MAKDQRMI.cafb87f71d0eb3b9240f.woff",
     "static/media/uicons-solid-rounded-WBSH5E5L.woff2": "/my-site/static/media/uicons-solid-rounded-WBSH5E5L.653859786d3f3c0c5383.woff2",
@@ -50,10 +51,10 @@
     "static/media/EGGFACE.jpg": "/my-site/static/media/EGGFACE.e4f9499c18483d49e2c0.jpg",
     "index.html": "/my-site/index.html",
     "main.e966bb29.css.map": "/my-site/static/css/main.e966bb29.css.map",
-    "main.5007a149.js.map": "/my-site/static/js/main.5007a149.js.map"
+    "main.711f3862.js.map": "/my-site/static/js/main.711f3862.js.map"
   },
   "entrypoints": [
     "static/css/main.e966bb29.css",
-    "static/js/main.5007a149.js"
+    "static/js/main.711f3862.js"
   ]
 }

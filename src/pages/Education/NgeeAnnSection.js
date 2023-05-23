@@ -49,12 +49,12 @@ function NgeeAnnSection() {
 <br />
 <br />
 
-<div className=" bg-gray-200 rounded-xl grid md:grid-cols-3 p-5 gap-5">
+{/* <div className=" bg-gray-200 rounded-xl grid md:grid-cols-3 p-5 gap-5">
     <Heading level={2}>NullSec SIG</Heading>
     <div>
 
     </div>
-</div>
+</div> */}
 
 <br />
 

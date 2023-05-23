@@ -14,6 +14,7 @@ export default function AboutMeSection() {
 
                 <Gallery />
 
+                <br />
                 <br className="lg:hidden"/>
 
                 <Text>

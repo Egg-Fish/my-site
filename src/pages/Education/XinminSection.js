@@ -14,12 +14,14 @@ import sjpoPic from "../../assets/education/olympiads/SJPO.png";
 import sciencePic from "../../assets/education/xmss/SCIENCE.png";
 import stemPic from "../../assets/education/xmss/STEM.png";
 
+import xmssPic from "../../assets/education/xmss/XMSS.jpeg";
+
 function XinminSection() {
     return (
 <section className="border-2 border-gray-100 p-5 md:w-5/6 rounded-3xl shadow-xl">
 
 <Row className="gap-5">
-    <Image src={undefined} className="md:w-1/2 bg-white rounded-xl aspect-[1.414] object-cover"/>
+    <Image src={xmssPic} className="md:w-1/2 bg-white rounded-xl aspect-[1.414] object-cover"/>
     <Column>
         <Heading level={1}>Xinmin Secondary School</Heading>
         <Heading level={3}>GCE O Level Certificate</Heading>

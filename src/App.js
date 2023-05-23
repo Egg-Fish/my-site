@@ -1,13 +1,13 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, MemoryRouter } from "react-router-dom";
 
 import Content from "./Content";
 
 function App() {
 
   return (
-    <BrowserRouter>
+    <MemoryRouter initialEntries={["/my-site"]}>
       <Content />
-    </BrowserRouter>
+    </MemoryRouter>
   );
 }
 
