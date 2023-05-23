@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-site/static/css/main.e966bb29.css",
-    "main.js": "/my-site/static/js/main.711f3862.js",
+    "main.css": "/my-site/static/css/main.3c1cc259.css",
+    "main.js": "/my-site/static/js/main.a9dc2731.js",
     "static/media/FLOWERS.jpg": "/my-site/static/media/FLOWERS.2f5e776cdd40cc85bff1.jpg",
     "static/media/NUSSTATS.png": "/my-site/static/media/NUSSTATS.d85d9e8a720a00787e3c.png",
     "static/media/YCEP.png": "/my-site/static/media/YCEP.d8aa63deabcfcaf9b174.png",
@@ -50,11 +50,11 @@
     "static/media/uicons-brands-QJAQFSP2.woff2": "/my-site/static/media/uicons-brands-QJAQFSP2.5f6b6a7ae0003bd6fe89.woff2",
     "static/media/EGGFACE.jpg": "/my-site/static/media/EGGFACE.e4f9499c18483d49e2c0.jpg",
     "index.html": "/my-site/index.html",
-    "main.e966bb29.css.map": "/my-site/static/css/main.e966bb29.css.map",
-    "main.711f3862.js.map": "/my-site/static/js/main.711f3862.js.map"
+    "main.3c1cc259.css.map": "/my-site/static/css/main.3c1cc259.css.map",
+    "main.a9dc2731.js.map": "/my-site/static/js/main.a9dc2731.js.map"
   },
   "entrypoints": [
-    "static/css/main.e966bb29.css",
-    "static/js/main.711f3862.js"
+    "static/css/main.3c1cc259.css",
+    "static/js/main.a9dc2731.js"
   ]
 }
