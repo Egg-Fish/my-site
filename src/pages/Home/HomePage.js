@@ -41,8 +41,8 @@ function HomePage() {
                     <br />
                     <div>
                         <ButtonRow className="gap-2">
-                            <Button onClick={() => navigate("/about")}>About Me</Button>
-                            <Button onClick={() => navigate("/education")}>My Education</Button>
+                            <Button onClick={() => navigate("/my-site/about")}>About Me</Button>
+                            <Button onClick={() => navigate("/my-site/education")}>My Education</Button>
                         </ButtonRow>
                     </div>
                 </Column>

@@ -17,7 +17,7 @@ function Content() {
           key={location.key}
         >
           <Routes location={location}>
-            <Route path="/" element={<Layout />}>
+            <Route path="/my-site/" element={<Layout />}>
               <Route index element={<HomePage />} />
               <Route path="about" element={<AboutPage />} />
               <Route path="education" element={<EducationPage />} />

@@ -18,22 +18,22 @@ function Navbar () {
     right-0
     ">
     <Column className="gap-y-11 text-3xl text-white" justify="end">
-        <Link to="/">
+        <Link to="/my-site">
                 <i className={classNames("fi-bs-home", BUTTON_CLASSNAMES, {
-                    "bg-primary": location.pathname === "/",
-                    "bg-secondary": location.pathname !== "/"
+                    "bg-primary": location.pathname === "/my-site",
+                    "bg-secondary": location.pathname !== "/my-site"
                 })}></i>
         </Link>
-        <Link to="/about">
+        <Link to="/my-site/about">
                 <i className={classNames("fi-bs-user", BUTTON_CLASSNAMES, {
-                    "bg-primary": location.pathname === "/about",
-                    "bg-secondary ": location.pathname !== "/about"
+                    "bg-primary": location.pathname === "/my-site/about",
+                    "bg-secondary ": location.pathname !== "/my-site/about"
                 })}></i>
         </Link>
-        <Link to="/education">
+        <Link to="/my-site/education">
                 <i className={classNames("fi-rs-school", BUTTON_CLASSNAMES, {
-                    "bg-primary": location.pathname === "/education",
-                    "bg-secondary": location.pathname !== "/education"
+                    "bg-primary": location.pathname === "/my-site/education",
+                    "bg-secondary": location.pathname !== "/my-site/education"
                 })}></i>
         </Link>
     </Column>
